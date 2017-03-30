@@ -1,0 +1,2 @@
+# rmemore
+replicates memore function
