@@ -1,0 +1,17 @@
+Package: rmemore
+Title: Calculates Indirect Effect of Independent Variable on Dependent Variable through a Mediator in Two-Condition Within Subjects Design
+Version: 0.0.0.9000
+Authors@R: person("Emily", "Robinson", email = "robinson.es@etsy.com", role = c("aut", "cre"))
+Description: This package creates a function in R to replicate the macros for SPSS and SAS written by Montoya and Hayes (http://afhayes.com/spss-sas-and-mplus-macros-and-code.html). This estimates the indirect effect of X on Y through a mediator in the two-condition within-subjects/repeated measures design.
+Depends: R (>= 3.3.2)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: plyr,
+    broom,
+    boot,
+    magrittr,
+    stats
+RoxygenNote: 6.0.0
+URL: https://github.com/robinsones/rmemore
+BugReports: https://github.com/robinsones/rmemore/issues
